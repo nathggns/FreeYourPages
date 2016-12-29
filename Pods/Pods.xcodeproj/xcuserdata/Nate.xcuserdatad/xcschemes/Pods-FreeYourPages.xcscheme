@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8491EE2FB98C173E6FF08DD37773D5B"
-               BuildableName = "Pods_Scribd_Exporer.framework"
-               BlueprintName = "Pods-Scribd Exporer"
+               BlueprintIdentifier = "312B36BAE86A124E919E1D5B0F30C750"
+               BuildableName = "Pods_FreeYourPages.framework"
+               BlueprintName = "Pods-FreeYourPages"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8491EE2FB98C173E6FF08DD37773D5B"
-            BuildableName = "Pods_Scribd_Exporer.framework"
-            BlueprintName = "Pods-Scribd Exporer"
+            BlueprintIdentifier = "312B36BAE86A124E919E1D5B0F30C750"
+            BuildableName = "Pods_FreeYourPages.framework"
+            BlueprintName = "Pods-FreeYourPages"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

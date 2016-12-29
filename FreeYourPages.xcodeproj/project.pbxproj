@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2838DC04BCD2C92F6271808C /* Pods_Scribd_Exporer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8B9BF4ADFE2DA77BAC794C /* Pods_Scribd_Exporer.framework */; };
 		43199A541E12D4140073B182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A531E12D4140073B182 /* AppDelegate.swift */; };
 		43199A561E12D4140073B182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A551E12D4140073B182 /* ViewController.swift */; };
 		43199A591E12D4140073B182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43199A571E12D4140073B182 /* Main.storyboard */; };
@@ -24,8 +23,11 @@
 		4361BD471E15258A0066A0F4 /* Scribd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD451E1524780066A0F4 /* Scribd.swift */; };
 		43B1A7B01E1432F8007BAD65 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1A7AF1E1432F8007BAD65 /* MyButton.swift */; };
 		43C8B8E6F9E5B57B7BF13E42 /* Pods_Action.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E792CBDC14017096A4507F09 /* Pods_Action.framework */; };
+		5892EA38613E61499E4C5483 /* Pods_FreeYourPages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA8323AF06E95AF7399CE36 /* Pods_FreeYourPages.framework */; };
 		6C5FB016E23AD34C185809B5 /* Pods_Scribd_ExporerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E502056A09378279E36AD799 /* Pods_Scribd_ExporerUITests.framework */; };
+		905C4A1AF5858ED7437459E0 /* Pods_FreeYourPagesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EE2BE200340A45E6C48985 /* Pods_FreeYourPagesTests.framework */; };
 		C0833C5FCE8006D3D1F0BA21 /* Pods_Scribd_ExporerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249ACCE9B13FBA9A49B6E4E1 /* Pods_Scribd_ExporerTests.framework */; };
+		EB784D1EBF447840FD2E8F7F /* Pods_FreeYourPagesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B55FBE38BB08D51522C3C3 /* Pods_FreeYourPagesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,18 +72,20 @@
 		0D8B9BF4ADFE2DA77BAC794C /* Pods_Scribd_Exporer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribd_Exporer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E12D561A13FABA1C40CC427 /* Pods-Scribd ExporerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd ExporerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd ExporerUITests/Pods-Scribd ExporerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		249ACCE9B13FBA9A49B6E4E1 /* Pods_Scribd_ExporerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribd_ExporerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		256B841D59AA0551D20FD604 /* Pods-FreeYourPagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeYourPagesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeYourPagesTests/Pods-FreeYourPagesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AA26CDC2995DDF9495D376A /* Pods-FreeYourPagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeYourPagesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeYourPagesTests/Pods-FreeYourPagesTests.release.xcconfig"; sourceTree = "<group>"; };
 		41C64586040738C789BE5EA6 /* Pods-Scribd Exporer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd Exporer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd Exporer/Pods-Scribd Exporer.release.xcconfig"; sourceTree = "<group>"; };
-		43199A501E12D4140073B182 /* Scribd Exporer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scribd Exporer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43199A501E12D4140073B182 /* FreeYourPages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeYourPages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43199A531E12D4140073B182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43199A551E12D4140073B182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43199A581E12D4140073B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43199A5A1E12D4140073B182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43199A5D1E12D4140073B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43199A5F1E12D4140073B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43199A641E12D4140073B182 /* Scribd ExporerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scribd ExporerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43199A641E12D4140073B182 /* FreeYourPagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeYourPagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43199A681E12D4140073B182 /* Scribd_ExporerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scribd_ExporerTests.swift; sourceTree = "<group>"; };
 		43199A6A1E12D4140073B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43199A6F1E12D4140073B182 /* Scribd ExporerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scribd ExporerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43199A6F1E12D4140073B182 /* FreeYourPagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeYourPagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43199A731E12D4140073B182 /* Scribd_ExporerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scribd_ExporerUITests.swift; sourceTree = "<group>"; };
 		43199A751E12D4140073B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43199A981E12D6160073B182 /* Action.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Action.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,19 +93,26 @@
 		43199A9D1E12D6160073B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		43199A9F1E12D6160073B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4361BD3F1E1478A10066A0F4 /* ScribdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScribdController.swift; sourceTree = "<group>"; };
-		4361BD411E147DAC0066A0F4 /* Action.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Action.entitlements; sourceTree = "<group>"; };
 		4361BD421E1486240066A0F4 /* PopupDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDelegate.swift; sourceTree = "<group>"; };
-		4361BD441E148B8C0066A0F4 /* Scribd Exporer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Scribd Exporer.entitlements"; sourceTree = "<group>"; };
 		4361BD451E1524780066A0F4 /* Scribd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scribd.swift; sourceTree = "<group>"; };
 		43B1A7AF1E1432F8007BAD65 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		43DD0B991E15BDD2008DD8C8 /* Action.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Action.entitlements; sourceTree = "<group>"; };
+		43DD0B9A1E15BDDF008DD8C8 /* FreeYourPages.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FreeYourPages.entitlements; sourceTree = "<group>"; };
 		4F5427CB5FD38F7C5563402F /* Pods-Scribd ExporerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd ExporerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd ExporerTests/Pods-Scribd ExporerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		745A7F8E49053E738B55D012 /* Pods-Scribd Exporer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd Exporer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd Exporer/Pods-Scribd Exporer.debug.xcconfig"; sourceTree = "<group>"; };
 		82015073A62AE16130A6138B /* Pods-Scribd ExporerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd ExporerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd ExporerTests/Pods-Scribd ExporerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7EE2BE200340A45E6C48985 /* Pods_FreeYourPagesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeYourPagesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4F3CE939A99A8C11B9C5E1 /* Pods-Scribd ExporerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd ExporerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd ExporerUITests/Pods-Scribd ExporerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBC95F8A4677C1221FE1006A /* Pods-Action.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Action.release.xcconfig"; path = "Pods/Target Support Files/Pods-Action/Pods-Action.release.xcconfig"; sourceTree = "<group>"; };
 		DA4494C80F6E8AEC05A39BFD /* Pods-Action.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Action.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Action/Pods-Action.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD46F7C1EC3EDC856DC3732 /* Pods-FreeYourPagesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeYourPagesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeYourPagesUITests/Pods-FreeYourPagesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E502056A09378279E36AD799 /* Pods_Scribd_ExporerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribd_ExporerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E792CBDC14017096A4507F09 /* Pods_Action.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Action.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC24D6ECADE68EBEBD142B /* Pods-FreeYourPages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeYourPages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeYourPages/Pods-FreeYourPages.debug.xcconfig"; sourceTree = "<group>"; };
+		F8B55FBE38BB08D51522C3C3 /* Pods_FreeYourPagesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeYourPagesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91F14E3D2513A3FD612C5FE /* Pods-FreeYourPagesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeYourPagesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeYourPagesUITests/Pods-FreeYourPagesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FEA8323AF06E95AF7399CE36 /* Pods_FreeYourPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeYourPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFACB814A5A897B568058E15 /* Pods-FreeYourPages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeYourPages.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeYourPages/Pods-FreeYourPages.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2838DC04BCD2C92F6271808C /* Pods_Scribd_Exporer.framework in Frameworks */,
+				5892EA38613E61499E4C5483 /* Pods_FreeYourPages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0833C5FCE8006D3D1F0BA21 /* Pods_Scribd_ExporerTests.framework in Frameworks */,
+				905C4A1AF5858ED7437459E0 /* Pods_FreeYourPagesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C5FB016E23AD34C185809B5 /* Pods_Scribd_ExporerUITests.framework in Frameworks */,
+				EB784D1EBF447840FD2E8F7F /* Pods_FreeYourPagesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +160,9 @@
 				0D8B9BF4ADFE2DA77BAC794C /* Pods_Scribd_Exporer.framework */,
 				249ACCE9B13FBA9A49B6E4E1 /* Pods_Scribd_ExporerTests.framework */,
 				E502056A09378279E36AD799 /* Pods_Scribd_ExporerUITests.framework */,
+				FEA8323AF06E95AF7399CE36 /* Pods_FreeYourPages.framework */,
+				A7EE2BE200340A45E6C48985 /* Pods_FreeYourPagesTests.framework */,
+				F8B55FBE38BB08D51522C3C3 /* Pods_FreeYourPagesUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,70 +170,70 @@
 		43199A471E12D4130073B182 = {
 			isa = PBXGroup;
 			children = (
-				43199A521E12D4140073B182 /* Scribd Exporer */,
-				43199A671E12D4140073B182 /* Scribd ExporerTests */,
-				43199A721E12D4140073B182 /* Scribd ExporerUITests */,
 				43199A991E12D6160073B182 /* Action */,
-				43199A511E12D4140073B182 /* Products */,
-				97E4CD4644D5F32BD71634A8 /* Pods */,
 				325D5AAD3200FEB6DFC4840D /* Frameworks */,
+				43199A521E12D4140073B182 /* FreeYourPages */,
+				43199A671E12D4140073B182 /* FreeYourPagesTests */,
+				43199A721E12D4140073B182 /* FreeYourPagesUITests */,
+				97E4CD4644D5F32BD71634A8 /* Pods */,
+				43199A511E12D4140073B182 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 		43199A511E12D4140073B182 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43199A501E12D4140073B182 /* Scribd Exporer.app */,
-				43199A641E12D4140073B182 /* Scribd ExporerTests.xctest */,
-				43199A6F1E12D4140073B182 /* Scribd ExporerUITests.xctest */,
+				43199A501E12D4140073B182 /* FreeYourPages.app */,
+				43199A641E12D4140073B182 /* FreeYourPagesTests.xctest */,
+				43199A6F1E12D4140073B182 /* FreeYourPagesUITests.xctest */,
 				43199A981E12D6160073B182 /* Action.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43199A521E12D4140073B182 /* Scribd Exporer */ = {
+		43199A521E12D4140073B182 /* FreeYourPages */ = {
 			isa = PBXGroup;
 			children = (
-				4361BD441E148B8C0066A0F4 /* Scribd Exporer.entitlements */,
+				43DD0B9A1E15BDDF008DD8C8 /* FreeYourPages.entitlements */,
 				43199A531E12D4140073B182 /* AppDelegate.swift */,
-				43199A551E12D4140073B182 /* ViewController.swift */,
-				43199A571E12D4140073B182 /* Main.storyboard */,
 				43199A5A1E12D4140073B182 /* Assets.xcassets */,
-				43199A5C1E12D4140073B182 /* LaunchScreen.storyboard */,
 				43199A5F1E12D4140073B182 /* Info.plist */,
+				43199A5C1E12D4140073B182 /* LaunchScreen.storyboard */,
+				43199A571E12D4140073B182 /* Main.storyboard */,
 				43B1A7AF1E1432F8007BAD65 /* MyButton.swift */,
-				4361BD3F1E1478A10066A0F4 /* ScribdController.swift */,
 				4361BD421E1486240066A0F4 /* PopupDelegate.swift */,
 				4361BD451E1524780066A0F4 /* Scribd.swift */,
+				4361BD3F1E1478A10066A0F4 /* ScribdController.swift */,
+				43199A551E12D4140073B182 /* ViewController.swift */,
 			);
-			path = "Scribd Exporer";
+			path = FreeYourPages;
 			sourceTree = "<group>";
 		};
-		43199A671E12D4140073B182 /* Scribd ExporerTests */ = {
+		43199A671E12D4140073B182 /* FreeYourPagesTests */ = {
 			isa = PBXGroup;
 			children = (
-				43199A681E12D4140073B182 /* Scribd_ExporerTests.swift */,
 				43199A6A1E12D4140073B182 /* Info.plist */,
+				43199A681E12D4140073B182 /* Scribd_ExporerTests.swift */,
 			);
-			path = "Scribd ExporerTests";
+			path = FreeYourPagesTests;
 			sourceTree = "<group>";
 		};
-		43199A721E12D4140073B182 /* Scribd ExporerUITests */ = {
+		43199A721E12D4140073B182 /* FreeYourPagesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				43199A731E12D4140073B182 /* Scribd_ExporerUITests.swift */,
 				43199A751E12D4140073B182 /* Info.plist */,
+				43199A731E12D4140073B182 /* Scribd_ExporerUITests.swift */,
 			);
-			path = "Scribd ExporerUITests";
+			path = FreeYourPagesUITests;
 			sourceTree = "<group>";
 		};
 		43199A991E12D6160073B182 /* Action */ = {
 			isa = PBXGroup;
 			children = (
-				4361BD411E147DAC0066A0F4 /* Action.entitlements */,
+				43DD0B991E15BDD2008DD8C8 /* Action.entitlements */,
 				43199A9A1E12D6160073B182 /* ActionViewController.swift */,
-				43199A9C1E12D6160073B182 /* MainInterface.storyboard */,
 				43199A9F1E12D6160073B182 /* Info.plist */,
+				43199A9C1E12D6160073B182 /* MainInterface.storyboard */,
 			);
 			path = Action;
 			sourceTree = "<group>";
@@ -233,6 +249,12 @@
 				82015073A62AE16130A6138B /* Pods-Scribd ExporerTests.release.xcconfig */,
 				AF4F3CE939A99A8C11B9C5E1 /* Pods-Scribd ExporerUITests.debug.xcconfig */,
 				1E12D561A13FABA1C40CC427 /* Pods-Scribd ExporerUITests.release.xcconfig */,
+				F3CC24D6ECADE68EBEBD142B /* Pods-FreeYourPages.debug.xcconfig */,
+				FFACB814A5A897B568058E15 /* Pods-FreeYourPages.release.xcconfig */,
+				256B841D59AA0551D20FD604 /* Pods-FreeYourPagesTests.debug.xcconfig */,
+				2AA26CDC2995DDF9495D376A /* Pods-FreeYourPagesTests.release.xcconfig */,
+				DFD46F7C1EC3EDC856DC3732 /* Pods-FreeYourPagesUITests.debug.xcconfig */,
+				F91F14E3D2513A3FD612C5FE /* Pods-FreeYourPagesUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -240,9 +262,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43199A4F1E12D4130073B182 /* Scribd Exporer */ = {
+		43199A4F1E12D4130073B182 /* FreeYourPages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43199A781E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd Exporer" */;
+			buildConfigurationList = 43199A781E12D4140073B182 /* Build configuration list for PBXNativeTarget "FreeYourPages" */;
 			buildPhases = (
 				841AD7546BFFDF8475514B90 /* [CP] Check Pods Manifest.lock */,
 				43199A4C1E12D4130073B182 /* Sources */,
@@ -257,14 +279,14 @@
 			dependencies = (
 				43199AA11E12D6160073B182 /* PBXTargetDependency */,
 			);
-			name = "Scribd Exporer";
+			name = FreeYourPages;
 			productName = "Scribd Exporer";
-			productReference = 43199A501E12D4140073B182 /* Scribd Exporer.app */;
+			productReference = 43199A501E12D4140073B182 /* FreeYourPages.app */;
 			productType = "com.apple.product-type.application";
 		};
-		43199A631E12D4140073B182 /* Scribd ExporerTests */ = {
+		43199A631E12D4140073B182 /* FreeYourPagesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43199A7B1E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd ExporerTests" */;
+			buildConfigurationList = 43199A7B1E12D4140073B182 /* Build configuration list for PBXNativeTarget "FreeYourPagesTests" */;
 			buildPhases = (
 				B728524235B57E9C6B87BEE2 /* [CP] Check Pods Manifest.lock */,
 				43199A601E12D4140073B182 /* Sources */,
@@ -278,14 +300,14 @@
 			dependencies = (
 				43199A661E12D4140073B182 /* PBXTargetDependency */,
 			);
-			name = "Scribd ExporerTests";
+			name = FreeYourPagesTests;
 			productName = "Scribd ExporerTests";
-			productReference = 43199A641E12D4140073B182 /* Scribd ExporerTests.xctest */;
+			productReference = 43199A641E12D4140073B182 /* FreeYourPagesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		43199A6E1E12D4140073B182 /* Scribd ExporerUITests */ = {
+		43199A6E1E12D4140073B182 /* FreeYourPagesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43199A7E1E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd ExporerUITests" */;
+			buildConfigurationList = 43199A7E1E12D4140073B182 /* Build configuration list for PBXNativeTarget "FreeYourPagesUITests" */;
 			buildPhases = (
 				00561D5C3AA1BA7B4CA40233 /* [CP] Check Pods Manifest.lock */,
 				43199A6B1E12D4140073B182 /* Sources */,
@@ -299,9 +321,9 @@
 			dependencies = (
 				43199A711E12D4140073B182 /* PBXTargetDependency */,
 			);
-			name = "Scribd ExporerUITests";
+			name = FreeYourPagesUITests;
 			productName = "Scribd ExporerUITests";
-			productReference = 43199A6F1E12D4140073B182 /* Scribd ExporerUITests.xctest */;
+			productReference = 43199A6F1E12D4140073B182 /* FreeYourPagesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		43199A971E12D6160073B182 /* Action */ = {
@@ -365,7 +387,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43199A4B1E12D4130073B182 /* Build configuration list for PBXProject "Scribd Exporer" */;
+			buildConfigurationList = 43199A4B1E12D4130073B182 /* Build configuration list for PBXProject "FreeYourPages" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -378,9 +400,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43199A4F1E12D4130073B182 /* Scribd Exporer */,
-				43199A631E12D4140073B182 /* Scribd ExporerTests */,
-				43199A6E1E12D4140073B182 /* Scribd ExporerUITests */,
+				43199A4F1E12D4130073B182 /* FreeYourPages */,
+				43199A631E12D4140073B182 /* FreeYourPagesTests */,
+				43199A6E1E12D4140073B182 /* FreeYourPagesUITests */,
 				43199A971E12D6160073B182 /* Action */,
 			);
 		};
@@ -464,7 +486,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd ExporerUITests/Pods-Scribd ExporerUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeYourPagesUITests/Pods-FreeYourPagesUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		37A4D611BDB19BE00061BF39 /* [CP] Copy Pods Resources */ = {
@@ -479,7 +501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd ExporerTests/Pods-Scribd ExporerTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeYourPagesTests/Pods-FreeYourPagesTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4A40907428DCC13E1179D6EB /* [CP] Check Pods Manifest.lock */ = {
@@ -509,7 +531,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd ExporerUITests/Pods-Scribd ExporerUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeYourPagesUITests/Pods-FreeYourPagesUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		841AD7546BFFDF8475514B90 /* [CP] Check Pods Manifest.lock */ = {
@@ -539,7 +561,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd ExporerTests/Pods-Scribd ExporerTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeYourPagesTests/Pods-FreeYourPagesTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B728524235B57E9C6B87BEE2 /* [CP] Check Pods Manifest.lock */ = {
@@ -569,7 +591,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd Exporer/Pods-Scribd Exporer-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeYourPages/Pods-FreeYourPages-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFFE91B6D6C554B66781BA28 /* [CP] Embed Pods Frameworks */ = {
@@ -584,7 +606,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd Exporer/Pods-Scribd Exporer-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeYourPages/Pods-FreeYourPages-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -633,12 +655,12 @@
 /* Begin PBXTargetDependency section */
 		43199A661E12D4140073B182 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43199A4F1E12D4130073B182 /* Scribd Exporer */;
+			target = 43199A4F1E12D4130073B182 /* FreeYourPages */;
 			targetProxy = 43199A651E12D4140073B182 /* PBXContainerItemProxy */;
 		};
 		43199A711E12D4140073B182 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43199A4F1E12D4130073B182 /* Scribd Exporer */;
+			target = 43199A4F1E12D4130073B182 /* FreeYourPages */;
 			targetProxy = 43199A701E12D4140073B182 /* PBXContainerItemProxy */;
 		};
 		43199AA11E12D6160073B182 /* PBXTargetDependency */ = {
@@ -655,6 +677,7 @@
 				43199A581E12D4140073B182 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		43199A5C1E12D4140073B182 /* LaunchScreen.storyboard */ = {
@@ -663,6 +686,7 @@
 				43199A5D1E12D4140073B182 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		43199A9C1E12D6160073B182 /* MainInterface.storyboard */ = {
@@ -671,6 +695,7 @@
 				43199A9D1E12D6160073B182 /* Base */,
 			);
 			name = MainInterface.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -771,15 +796,15 @@
 		};
 		43199A791E12D4140073B182 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 745A7F8E49053E738B55D012 /* Pods-Scribd Exporer.debug.xcconfig */;
+			baseConfigurationReference = F3CC24D6ECADE68EBEBD142B /* Pods-FreeYourPages.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Scribd Exporer/Scribd Exporer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = FreeYourPages/FreeYourPages.entitlements;
 				DEVELOPMENT_TEAM = 9BGC585V62;
-				INFOPLIST_FILE = "Scribd Exporer/Info.plist";
+				INFOPLIST_FILE = FreeYourPages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-Exporer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathggns.FreeYourPages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -787,15 +812,15 @@
 		};
 		43199A7A1E12D4140073B182 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41C64586040738C789BE5EA6 /* Pods-Scribd Exporer.release.xcconfig */;
+			baseConfigurationReference = FFACB814A5A897B568058E15 /* Pods-FreeYourPages.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Scribd Exporer/Scribd Exporer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = FreeYourPages/FreeYourPages.entitlements;
 				DEVELOPMENT_TEAM = 9BGC585V62;
-				INFOPLIST_FILE = "Scribd Exporer/Info.plist";
+				INFOPLIST_FILE = FreeYourPages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-Exporer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathggns.FreeYourPages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -803,40 +828,40 @@
 		};
 		43199A7C1E12D4140073B182 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F5427CB5FD38F7C5563402F /* Pods-Scribd ExporerTests.debug.xcconfig */;
+			baseConfigurationReference = 256B841D59AA0551D20FD604 /* Pods-FreeYourPagesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Scribd ExporerTests/Info.plist";
+				INFOPLIST_FILE = FreeYourPagesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-ExporerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scribd Exporer.app/Scribd Exporer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeYourPages.app/FreeYourPages";
 			};
 			name = Debug;
 		};
 		43199A7D1E12D4140073B182 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82015073A62AE16130A6138B /* Pods-Scribd ExporerTests.release.xcconfig */;
+			baseConfigurationReference = 2AA26CDC2995DDF9495D376A /* Pods-FreeYourPagesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Scribd ExporerTests/Info.plist";
+				INFOPLIST_FILE = FreeYourPagesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-ExporerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scribd Exporer.app/Scribd Exporer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeYourPages.app/FreeYourPages";
 			};
 			name = Release;
 		};
 		43199A7F1E12D4140073B182 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF4F3CE939A99A8C11B9C5E1 /* Pods-Scribd ExporerUITests.debug.xcconfig */;
+			baseConfigurationReference = DFD46F7C1EC3EDC856DC3732 /* Pods-FreeYourPagesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "Scribd ExporerUITests/Info.plist";
+				INFOPLIST_FILE = FreeYourPagesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-ExporerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -847,10 +872,10 @@
 		};
 		43199A801E12D4140073B182 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E12D561A13FABA1C40CC427 /* Pods-Scribd ExporerUITests.release.xcconfig */;
+			baseConfigurationReference = F91F14E3D2513A3FD612C5FE /* Pods-FreeYourPagesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "Scribd ExporerUITests/Info.plist";
+				INFOPLIST_FILE = FreeYourPagesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-ExporerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -867,7 +892,7 @@
 				DEVELOPMENT_TEAM = 9BGC585V62;
 				INFOPLIST_FILE = Action/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-Exporer.Action";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathggns.FreeYourPages.Action;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -882,7 +907,7 @@
 				DEVELOPMENT_TEAM = 9BGC585V62;
 				INFOPLIST_FILE = Action/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-Exporer.Action";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathggns.FreeYourPages.Action;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -892,7 +917,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43199A4B1E12D4130073B182 /* Build configuration list for PBXProject "Scribd Exporer" */ = {
+		43199A4B1E12D4130073B182 /* Build configuration list for PBXProject "FreeYourPages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43199A761E12D4140073B182 /* Debug */,
@@ -901,7 +926,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43199A781E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd Exporer" */ = {
+		43199A781E12D4140073B182 /* Build configuration list for PBXNativeTarget "FreeYourPages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43199A791E12D4140073B182 /* Debug */,
@@ -910,7 +935,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43199A7B1E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd ExporerTests" */ = {
+		43199A7B1E12D4140073B182 /* Build configuration list for PBXNativeTarget "FreeYourPagesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43199A7C1E12D4140073B182 /* Debug */,
@@ -919,7 +944,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43199A7E1E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd ExporerUITests" */ = {
+		43199A7E1E12D4140073B182 /* Build configuration list for PBXNativeTarget "FreeYourPagesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43199A7F1E12D4140073B182 /* Debug */,

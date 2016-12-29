@@ -2,12 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Keychain Group</key>
-	<string>$(AppIdentifierPrefix)com.nathggns.Scribd-Exporer.Action</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Export Document</string>
+	<string>FreeYourPages</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,6 +20,8 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>Keychain Group</key>
+	<string>$(AppIdentifierPrefix)com.nathggns.FreeYourPages.Action</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>

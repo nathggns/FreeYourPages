@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "43199A4F1E12D4130073B182"
-               BuildableName = "Scribd Exporer.app"
-               BlueprintName = "Scribd Exporer"
-               ReferencedContainer = "container:Scribd Exporer.xcodeproj">
+               BuildableName = "FreeYourPages.app"
+               BlueprintName = "FreeYourPages"
+               ReferencedContainer = "container:FreeYourPages.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "43199A631E12D4140073B182"
-               BuildableName = "Scribd ExporerTests.xctest"
-               BlueprintName = "Scribd ExporerTests"
-               ReferencedContainer = "container:Scribd Exporer.xcodeproj">
+               BuildableName = "FreeYourPagesTests.xctest"
+               BlueprintName = "FreeYourPagesTests"
+               ReferencedContainer = "container:FreeYourPages.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "43199A6E1E12D4140073B182"
-               BuildableName = "Scribd ExporerUITests.xctest"
-               BlueprintName = "Scribd ExporerUITests"
-               ReferencedContainer = "container:Scribd Exporer.xcodeproj">
+               BuildableName = "FreeYourPagesUITests.xctest"
+               BlueprintName = "FreeYourPagesUITests"
+               ReferencedContainer = "container:FreeYourPages.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43199A4F1E12D4130073B182"
-            BuildableName = "Scribd Exporer.app"
-            BlueprintName = "Scribd Exporer"
-            ReferencedContainer = "container:Scribd Exporer.xcodeproj">
+            BuildableName = "FreeYourPages.app"
+            BlueprintName = "FreeYourPages"
+            ReferencedContainer = "container:FreeYourPages.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43199A4F1E12D4130073B182"
-            BuildableName = "Scribd Exporer.app"
-            BlueprintName = "Scribd Exporer"
-            ReferencedContainer = "container:Scribd Exporer.xcodeproj">
+            BuildableName = "FreeYourPages.app"
+            BlueprintName = "FreeYourPages"
+            ReferencedContainer = "container:FreeYourPages.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43199A4F1E12D4130073B182"
-            BuildableName = "Scribd Exporer.app"
-            BlueprintName = "Scribd Exporer"
-            ReferencedContainer = "container:Scribd Exporer.xcodeproj">
+            BuildableName = "FreeYourPages.app"
+            BlueprintName = "FreeYourPages"
+            ReferencedContainer = "container:FreeYourPages.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

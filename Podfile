@@ -1,4 +1,4 @@
-project 'Scribd Exporer.xcodeproj'
+project 'FreeYourPages.xcodeproj'
 
 swift_version = "3.0"
 platform :ios, '10.0'
@@ -20,18 +20,18 @@ target 'Action' do
   
 end
 
-target 'Scribd Exporer' do
+target 'FreeYourPages' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for Scribd Exporer
 
-  target 'Scribd ExporerTests' do
+  target 'FreeYourPagesTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'Scribd ExporerUITests' do
+  target 'FreeYourPagesUITests' do
     inherit! :search_paths
     # Pods for testing
   end

@@ -1,0 +1,6 @@
+framework module Pods_FreeYourPagesUITests {
+  umbrella header "Pods-FreeYourPagesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

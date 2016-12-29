@@ -19,17 +19,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Scribd Exporer.xcscheme</key>
+		<key>Pods-FreeYourPages.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Scribd ExporerTests.xcscheme</key>
+		<key>Pods-FreeYourPagesTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Scribd ExporerUITests.xcscheme</key>
+		<key>Pods-FreeYourPagesUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,17 +47,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>084DEA651A33AA7D3134C361AA9CE151</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2CDDF96E41613B8FFF26A9E8D2645D63</key>
+		<key>312B36BAE86A124E919E1D5B0F30C750</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>38ACA430605AFB4229712A18BDDF5086</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C4186199367A70F3084DED071D79E1C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,12 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D5E00BE646395AB39EA5B0B1CC092525</key>
+		<key>D08DDB2746B62D2BCBF04E905AB484A8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D8491EE2FB98C173E6FF08DD37773D5B</key>
+		<key>D5E00BE646395AB39EA5B0B1CC092525</key>
 		<dict>
 			<key>primary</key>
 			<true/>
