@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2838DC04BCD2C92F6271808C /* Pods_Scribd_Exporer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8B9BF4ADFE2DA77BAC794C /* Pods_Scribd_Exporer.framework */; };
 		43199A541E12D4140073B182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A531E12D4140073B182 /* AppDelegate.swift */; };
 		43199A561E12D4140073B182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A551E12D4140073B182 /* ViewController.swift */; };
 		43199A591E12D4140073B182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43199A571E12D4140073B182 /* Main.storyboard */; };
@@ -14,6 +15,17 @@
 		43199A5E1E12D4140073B182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43199A5C1E12D4140073B182 /* LaunchScreen.storyboard */; };
 		43199A691E12D4140073B182 /* Scribd_ExporerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A681E12D4140073B182 /* Scribd_ExporerTests.swift */; };
 		43199A741E12D4140073B182 /* Scribd_ExporerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A731E12D4140073B182 /* Scribd_ExporerUITests.swift */; };
+		43199A9B1E12D6160073B182 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A9A1E12D6160073B182 /* ActionViewController.swift */; };
+		43199A9E1E12D6160073B182 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43199A9C1E12D6160073B182 /* MainInterface.storyboard */; };
+		43199AA21E12D6160073B182 /* Action.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 43199A981E12D6160073B182 /* Action.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4361BD401E1478A10066A0F4 /* ScribdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD3F1E1478A10066A0F4 /* ScribdController.swift */; };
+		4361BD431E1486240066A0F4 /* PopupDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD421E1486240066A0F4 /* PopupDelegate.swift */; };
+		4361BD461E1524780066A0F4 /* Scribd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD451E1524780066A0F4 /* Scribd.swift */; };
+		4361BD471E15258A0066A0F4 /* Scribd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD451E1524780066A0F4 /* Scribd.swift */; };
+		43B1A7B01E1432F8007BAD65 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1A7AF1E1432F8007BAD65 /* MyButton.swift */; };
+		43C8B8E6F9E5B57B7BF13E42 /* Pods_Action.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E792CBDC14017096A4507F09 /* Pods_Action.framework */; };
+		6C5FB016E23AD34C185809B5 /* Pods_Scribd_ExporerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E502056A09378279E36AD799 /* Pods_Scribd_ExporerUITests.framework */; };
+		C0833C5FCE8006D3D1F0BA21 /* Pods_Scribd_ExporerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249ACCE9B13FBA9A49B6E4E1 /* Pods_Scribd_ExporerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +43,34 @@
 			remoteGlobalIDString = 43199A4F1E12D4130073B182;
 			remoteInfo = "Scribd Exporer";
 		};
+		43199AA01E12D6160073B182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43199A481E12D4130073B182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43199A971E12D6160073B182;
+			remoteInfo = Action;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		43199A931E12D46C0073B182 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				43199AA21E12D6160073B182 /* Action.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0D8B9BF4ADFE2DA77BAC794C /* Pods_Scribd_Exporer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribd_Exporer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E12D561A13FABA1C40CC427 /* Pods-Scribd ExporerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd ExporerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd ExporerUITests/Pods-Scribd ExporerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		249ACCE9B13FBA9A49B6E4E1 /* Pods_Scribd_ExporerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribd_ExporerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C64586040738C789BE5EA6 /* Pods-Scribd Exporer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd Exporer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd Exporer/Pods-Scribd Exporer.release.xcconfig"; sourceTree = "<group>"; };
 		43199A501E12D4140073B182 /* Scribd Exporer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scribd Exporer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43199A531E12D4140073B182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43199A551E12D4140073B182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +84,24 @@
 		43199A6F1E12D4140073B182 /* Scribd ExporerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scribd ExporerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43199A731E12D4140073B182 /* Scribd_ExporerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scribd_ExporerUITests.swift; sourceTree = "<group>"; };
 		43199A751E12D4140073B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43199A981E12D6160073B182 /* Action.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Action.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		43199A9A1E12D6160073B182 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		43199A9D1E12D6160073B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		43199A9F1E12D6160073B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4361BD3F1E1478A10066A0F4 /* ScribdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScribdController.swift; sourceTree = "<group>"; };
+		4361BD411E147DAC0066A0F4 /* Action.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Action.entitlements; sourceTree = "<group>"; };
+		4361BD421E1486240066A0F4 /* PopupDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDelegate.swift; sourceTree = "<group>"; };
+		4361BD441E148B8C0066A0F4 /* Scribd Exporer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Scribd Exporer.entitlements"; sourceTree = "<group>"; };
+		4361BD451E1524780066A0F4 /* Scribd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scribd.swift; sourceTree = "<group>"; };
+		43B1A7AF1E1432F8007BAD65 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		4F5427CB5FD38F7C5563402F /* Pods-Scribd ExporerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd ExporerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd ExporerTests/Pods-Scribd ExporerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		745A7F8E49053E738B55D012 /* Pods-Scribd Exporer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd Exporer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd Exporer/Pods-Scribd Exporer.debug.xcconfig"; sourceTree = "<group>"; };
+		82015073A62AE16130A6138B /* Pods-Scribd ExporerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd ExporerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd ExporerTests/Pods-Scribd ExporerTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF4F3CE939A99A8C11B9C5E1 /* Pods-Scribd ExporerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd ExporerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd ExporerUITests/Pods-Scribd ExporerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBC95F8A4677C1221FE1006A /* Pods-Action.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Action.release.xcconfig"; path = "Pods/Target Support Files/Pods-Action/Pods-Action.release.xcconfig"; sourceTree = "<group>"; };
+		DA4494C80F6E8AEC05A39BFD /* Pods-Action.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Action.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Action/Pods-Action.debug.xcconfig"; sourceTree = "<group>"; };
+		E502056A09378279E36AD799 /* Pods_Scribd_ExporerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribd_ExporerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E792CBDC14017096A4507F09 /* Pods_Action.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Action.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2838DC04BCD2C92F6271808C /* Pods_Scribd_Exporer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0833C5FCE8006D3D1F0BA21 /* Pods_Scribd_ExporerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +125,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C5FB016E23AD34C185809B5 /* Pods_Scribd_ExporerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43199A951E12D6160073B182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C8B8E6F9E5B57B7BF13E42 /* Pods_Action.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		325D5AAD3200FEB6DFC4840D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E792CBDC14017096A4507F09 /* Pods_Action.framework */,
+				0D8B9BF4ADFE2DA77BAC794C /* Pods_Scribd_Exporer.framework */,
+				249ACCE9B13FBA9A49B6E4E1 /* Pods_Scribd_ExporerTests.framework */,
+				E502056A09378279E36AD799 /* Pods_Scribd_ExporerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43199A471E12D4130073B182 = {
 			isa = PBXGroup;
 			children = (
 				43199A521E12D4140073B182 /* Scribd Exporer */,
 				43199A671E12D4140073B182 /* Scribd ExporerTests */,
 				43199A721E12D4140073B182 /* Scribd ExporerUITests */,
+				43199A991E12D6160073B182 /* Action */,
 				43199A511E12D4140073B182 /* Products */,
+				97E4CD4644D5F32BD71634A8 /* Pods */,
+				325D5AAD3200FEB6DFC4840D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +170,7 @@
 				43199A501E12D4140073B182 /* Scribd Exporer.app */,
 				43199A641E12D4140073B182 /* Scribd ExporerTests.xctest */,
 				43199A6F1E12D4140073B182 /* Scribd ExporerUITests.xctest */,
+				43199A981E12D6160073B182 /* Action.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +178,17 @@
 		43199A521E12D4140073B182 /* Scribd Exporer */ = {
 			isa = PBXGroup;
 			children = (
+				4361BD441E148B8C0066A0F4 /* Scribd Exporer.entitlements */,
 				43199A531E12D4140073B182 /* AppDelegate.swift */,
 				43199A551E12D4140073B182 /* ViewController.swift */,
 				43199A571E12D4140073B182 /* Main.storyboard */,
 				43199A5A1E12D4140073B182 /* Assets.xcassets */,
 				43199A5C1E12D4140073B182 /* LaunchScreen.storyboard */,
 				43199A5F1E12D4140073B182 /* Info.plist */,
+				43B1A7AF1E1432F8007BAD65 /* MyButton.swift */,
+				4361BD3F1E1478A10066A0F4 /* ScribdController.swift */,
+				4361BD421E1486240066A0F4 /* PopupDelegate.swift */,
+				4361BD451E1524780066A0F4 /* Scribd.swift */,
 			);
 			path = "Scribd Exporer";
 			sourceTree = "<group>";
@@ -125,6 +211,32 @@
 			path = "Scribd ExporerUITests";
 			sourceTree = "<group>";
 		};
+		43199A991E12D6160073B182 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				4361BD411E147DAC0066A0F4 /* Action.entitlements */,
+				43199A9A1E12D6160073B182 /* ActionViewController.swift */,
+				43199A9C1E12D6160073B182 /* MainInterface.storyboard */,
+				43199A9F1E12D6160073B182 /* Info.plist */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		97E4CD4644D5F32BD71634A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA4494C80F6E8AEC05A39BFD /* Pods-Action.debug.xcconfig */,
+				BBC95F8A4677C1221FE1006A /* Pods-Action.release.xcconfig */,
+				745A7F8E49053E738B55D012 /* Pods-Scribd Exporer.debug.xcconfig */,
+				41C64586040738C789BE5EA6 /* Pods-Scribd Exporer.release.xcconfig */,
+				4F5427CB5FD38F7C5563402F /* Pods-Scribd ExporerTests.debug.xcconfig */,
+				82015073A62AE16130A6138B /* Pods-Scribd ExporerTests.release.xcconfig */,
+				AF4F3CE939A99A8C11B9C5E1 /* Pods-Scribd ExporerUITests.debug.xcconfig */,
+				1E12D561A13FABA1C40CC427 /* Pods-Scribd ExporerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,13 +244,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43199A781E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd Exporer" */;
 			buildPhases = (
+				841AD7546BFFDF8475514B90 /* [CP] Check Pods Manifest.lock */,
 				43199A4C1E12D4130073B182 /* Sources */,
 				43199A4D1E12D4130073B182 /* Frameworks */,
 				43199A4E1E12D4130073B182 /* Resources */,
+				43199A931E12D46C0073B182 /* Embed App Extensions */,
+				EFFE91B6D6C554B66781BA28 /* [CP] Embed Pods Frameworks */,
+				E6C99D5536CA8B34A1ACA63D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				43199AA11E12D6160073B182 /* PBXTargetDependency */,
 			);
 			name = "Scribd Exporer";
 			productName = "Scribd Exporer";
@@ -149,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43199A7B1E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd ExporerTests" */;
 			buildPhases = (
+				B728524235B57E9C6B87BEE2 /* [CP] Check Pods Manifest.lock */,
 				43199A601E12D4140073B182 /* Sources */,
 				43199A611E12D4140073B182 /* Frameworks */,
 				43199A621E12D4140073B182 /* Resources */,
+				9468034404FF42E65A456AB9 /* [CP] Embed Pods Frameworks */,
+				37A4D611BDB19BE00061BF39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43199A7E1E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd ExporerUITests" */;
 			buildPhases = (
+				00561D5C3AA1BA7B4CA40233 /* [CP] Check Pods Manifest.lock */,
 				43199A6B1E12D4140073B182 /* Sources */,
 				43199A6C1E12D4140073B182 /* Frameworks */,
 				43199A6D1E12D4140073B182 /* Resources */,
+				31C712B3DBE045195B547992 /* [CP] Embed Pods Frameworks */,
+				7B1FD9C4F56845998A850B9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +303,25 @@
 			productName = "Scribd ExporerUITests";
 			productReference = 43199A6F1E12D4140073B182 /* Scribd ExporerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		43199A971E12D6160073B182 /* Action */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43199AA31E12D6160073B182 /* Build configuration list for PBXNativeTarget "Action" */;
+			buildPhases = (
+				4A40907428DCC13E1179D6EB /* [CP] Check Pods Manifest.lock */,
+				43199A941E12D6160073B182 /* Sources */,
+				43199A951E12D6160073B182 /* Frameworks */,
+				43199A961E12D6160073B182 /* Resources */,
+				0E734A237CF41CD4CEB9F11F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Action;
+			productName = Action;
+			productReference = 43199A981E12D6160073B182 /* Action.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,7 +335,13 @@
 				TargetAttributes = {
 					43199A4F1E12D4130073B182 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9BGC585V62;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					43199A631E12D4140073B182 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -204,6 +352,16 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 43199A4F1E12D4130073B182;
+					};
+					43199A971E12D6160073B182 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9BGC585V62;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -223,6 +381,7 @@
 				43199A4F1E12D4130073B182 /* Scribd Exporer */,
 				43199A631E12D4140073B182 /* Scribd ExporerTests */,
 				43199A6E1E12D4140073B182 /* Scribd ExporerUITests */,
+				43199A971E12D6160073B182 /* Action */,
 			);
 		};
 /* End PBXProject section */
@@ -252,15 +411,195 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		43199A961E12D6160073B182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43199A9E1E12D6160073B182 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00561D5C3AA1BA7B4CA40233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E734A237CF41CD4CEB9F11F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Action/Pods-Action-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31C712B3DBE045195B547992 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd ExporerUITests/Pods-Scribd ExporerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37A4D611BDB19BE00061BF39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd ExporerTests/Pods-Scribd ExporerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A40907428DCC13E1179D6EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1FD9C4F56845998A850B9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd ExporerUITests/Pods-Scribd ExporerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		841AD7546BFFDF8475514B90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9468034404FF42E65A456AB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd ExporerTests/Pods-Scribd ExporerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B728524235B57E9C6B87BEE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C99D5536CA8B34A1ACA63D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd Exporer/Pods-Scribd Exporer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFFE91B6D6C554B66781BA28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribd Exporer/Pods-Scribd Exporer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43199A4C1E12D4130073B182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4361BD401E1478A10066A0F4 /* ScribdController.swift in Sources */,
 				43199A561E12D4140073B182 /* ViewController.swift in Sources */,
+				4361BD461E1524780066A0F4 /* Scribd.swift in Sources */,
 				43199A541E12D4140073B182 /* AppDelegate.swift in Sources */,
+				4361BD431E1486240066A0F4 /* PopupDelegate.swift in Sources */,
+				43B1A7B01E1432F8007BAD65 /* MyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +619,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		43199A941E12D6160073B182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4361BD471E15258A0066A0F4 /* Scribd.swift in Sources */,
+				43199A9B1E12D6160073B182 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +640,11 @@
 			isa = PBXTargetDependency;
 			target = 43199A4F1E12D4130073B182 /* Scribd Exporer */;
 			targetProxy = 43199A701E12D4140073B182 /* PBXContainerItemProxy */;
+		};
+		43199AA11E12D6160073B182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43199A971E12D6160073B182 /* Action */;
+			targetProxy = 43199AA01E12D6160073B182 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -310,6 +663,14 @@
 				43199A5D1E12D4140073B182 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		43199A9C1E12D6160073B182 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43199A9D1E12D6160073B182 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,8 +771,12 @@
 		};
 		43199A791E12D4140073B182 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745A7F8E49053E738B55D012 /* Pods-Scribd Exporer.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Scribd Exporer/Scribd Exporer.entitlements";
+				DEVELOPMENT_TEAM = 9BGC585V62;
 				INFOPLIST_FILE = "Scribd Exporer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-Exporer";
@@ -422,8 +787,12 @@
 		};
 		43199A7A1E12D4140073B182 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C64586040738C789BE5EA6 /* Pods-Scribd Exporer.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Scribd Exporer/Scribd Exporer.entitlements";
+				DEVELOPMENT_TEAM = 9BGC585V62;
 				INFOPLIST_FILE = "Scribd Exporer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-Exporer";
@@ -434,6 +803,7 @@
 		};
 		43199A7C1E12D4140073B182 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5427CB5FD38F7C5563402F /* Pods-Scribd ExporerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +818,7 @@
 		};
 		43199A7D1E12D4140073B182 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82015073A62AE16130A6138B /* Pods-Scribd ExporerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +833,7 @@
 		};
 		43199A7F1E12D4140073B182 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4F3CE939A99A8C11B9C5E1 /* Pods-Scribd ExporerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Scribd ExporerUITests/Info.plist";
@@ -475,6 +847,7 @@
 		};
 		43199A801E12D4140073B182 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E12D561A13FABA1C40CC427 /* Pods-Scribd ExporerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Scribd ExporerUITests/Info.plist";
@@ -483,6 +856,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Scribd Exporer";
+			};
+			name = Release;
+		};
+		43199AA41E12D6160073B182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4494C80F6E8AEC05A39BFD /* Pods-Action.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Action/Action.entitlements;
+				DEVELOPMENT_TEAM = 9BGC585V62;
+				INFOPLIST_FILE = Action/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-Exporer.Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43199AA51E12D6160073B182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC95F8A4677C1221FE1006A /* Pods-Action.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Action/Action.entitlements;
+				DEVELOPMENT_TEAM = 9BGC585V62;
+				INFOPLIST_FILE = Action/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nathggns.Scribd-Exporer.Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -505,6 +908,7 @@
 				43199A7A1E12D4140073B182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43199A7B1E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd ExporerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +917,7 @@
 				43199A7D1E12D4140073B182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43199A7E1E12D4140073B182 /* Build configuration list for PBXNativeTarget "Scribd ExporerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +926,16 @@
 				43199A801E12D4140073B182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43199AA31E12D6160073B182 /* Build configuration list for PBXNativeTarget "Action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43199AA41E12D6160073B182 /* Debug */,
+				43199AA51E12D6160073B182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.2.0)
+  - KeychainSwift (7.0.0)
+  - PromiseKit (4.1.0):
+    - PromiseKit/Foundation (= 4.1.0)
+    - PromiseKit/QuartzCore (= 4.1.0)
+    - PromiseKit/UIKit (= 4.1.0)
+  - PromiseKit/Alamofire (4.1.0):
+    - Alamofire (~> 4.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/CorePromise (4.1.0)
+  - PromiseKit/Foundation (4.1.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.1.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.1.0):
+    - PromiseKit/CorePromise
+  - SwiftyJSON (3.1.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - KeychainSwift (~> 7.0)
+  - PromiseKit (~> 4.0)
+  - PromiseKit/Alamofire (~> 4.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  KeychainSwift: b6947435dd78cc442c64a84ae648dd0e871cf448
+  PromiseKit: c98453ff78544c0ad5bb0ea980782e6875f47978
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+
+PODFILE CHECKSUM: 58d8c31e460bbb0b13159114a75e5cbd0869b39a
+
+COCOAPODS: 1.1.1

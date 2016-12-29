@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Action.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Scribd Exporer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>43199A6E1E12D4140073B182</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43199A841E12D46C0073B182</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43199A971E12D6160073B182</key>
 		<dict>
 			<key>primary</key>
 			<true/>
