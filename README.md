@@ -5,6 +5,8 @@ An app to export documents to other apps from apps that don't allow you to.
 Using action extensions, FreeYourPages adds an action to share sheets for services that simply share links to their documents hosted on their own site,
 instead of sharing the actual content. 
 
+![Example GIF](https://github.com/nathggns/FreeYourPages/blob/master/example.gif?raw=true)
+
 ## Services we currently support
 
 * [Scribd](http://scribd.com)
