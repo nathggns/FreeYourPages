@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection footerTitle="More accounts coming soon" id="y2q-xd-Gtx">
+                            <tableViewSection footerTitle="More services coming soon" id="y2q-xd-Gtx">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="RqZ-ac-qg9" style="IBUITableViewCellStyleDefault" id="YOw-ZN-36O">
                                         <rect key="frame" x="0.0" y="35" width="320" height="44"/>
@@ -48,16 +48,16 @@
                             <outlet property="delegate" destination="Jk1-1l-Y8a" id="HRb-w9-J5j"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Accounts" id="swl-8k-aVG"/>
+                    <navigationItem key="navigationItem" title="Services" id="swl-8k-aVG"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V74-qj-Dca" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1582" y="128"/>
         </scene>
-        <!--Scribd Controller-->
+        <!--ScribdViewController-->
         <scene sceneID="CLk-cj-zXJ">
             <objects>
-                <viewController id="z5q-lt-WCE" customClass="ScribdController" customModule="Scribd_Exporer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Scribd" id="z5q-lt-WCE" userLabel="ScribdViewController" customClass="ScribdViewController" customModule="FreeYourPages" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="guc-F2-yTK"/>
                         <viewControllerLayoutGuide type="bottom" id="GCc-vv-vgM"/>
@@ -69,20 +69,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="knm-5N-mVe" userLabel="ContentView">
                                 <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL HERE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osk-zg-uxk">
-                                        <rect key="frame" x="0.0" y="61" width="320" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are Logged In As" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M74-aI-E72">
-                                        <rect key="frame" x="20" y="20" width="280" height="21"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xb5-IM-m4q" customClass="MyButton" customModule="Scribd_Exporer" customModuleProvider="target">
-                                        <rect key="frame" x="95" y="111" width="131" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xb5-IM-m4q" customClass="RoundedButton" customModule="FreeYourPages" customModuleProvider="target">
+                                        <rect key="frame" x="95" y="71" width="131" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="131" id="V5N-N3-Rga"/>
@@ -94,16 +82,19 @@
                                             <action selector="logout" destination="z5q-lt-WCE" eventType="touchUpInside" id="bXO-gZ-aBd"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL HERE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osk-zg-uxk">
+                                        <rect key="frame" x="0.0" y="30" width="320" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="osk-zg-uxk" secondAttribute="trailing" id="0tP-nx-qfa"/>
-                                    <constraint firstItem="M74-aI-E72" firstAttribute="top" secondItem="knm-5N-mVe" secondAttribute="top" constant="20" id="6Yr-RB-UhP"/>
-                                    <constraint firstItem="xb5-IM-m4q" firstAttribute="top" secondItem="osk-zg-uxk" secondAttribute="bottom" constant="29" id="JB4-Rn-v3R"/>
+                                    <constraint firstItem="xb5-IM-m4q" firstAttribute="top" secondItem="osk-zg-uxk" secondAttribute="bottom" constant="20" id="JB4-Rn-v3R"/>
                                     <constraint firstItem="osk-zg-uxk" firstAttribute="leading" secondItem="knm-5N-mVe" secondAttribute="leading" id="Klw-l2-GNE"/>
-                                    <constraint firstItem="M74-aI-E72" firstAttribute="leading" secondItem="knm-5N-mVe" secondAttribute="leading" constant="20" id="bdA-v7-5iX"/>
-                                    <constraint firstAttribute="trailing" secondItem="M74-aI-E72" secondAttribute="trailing" constant="20" id="egk-RE-uOi"/>
-                                    <constraint firstItem="osk-zg-uxk" firstAttribute="top" secondItem="M74-aI-E72" secondAttribute="bottom" constant="20" id="fz0-d8-9J9"/>
+                                    <constraint firstItem="osk-zg-uxk" firstAttribute="top" secondItem="knm-5N-mVe" secondAttribute="top" constant="30" id="NMW-qL-4oV"/>
                                     <constraint firstItem="xb5-IM-m4q" firstAttribute="centerX" secondItem="osk-zg-uxk" secondAttribute="centerX" id="kQq-iM-TVK"/>
                                 </constraints>
                             </view>
@@ -127,10 +118,10 @@
             </objects>
             <point key="canvasLocation" x="2291.25" y="116.25"/>
         </scene>
-        <!--Scribd-->
+        <!--ScribdLoginViewController-->
         <scene sceneID="fdm-qp-UpV">
             <objects>
-                <viewController storyboardIdentifier="scribdLogin" title="Scribd" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vaR-0C-Ef3" customClass="ViewController" customModule="Scribd_Exporer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="scribdLogin" title="Scribd" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vaR-0C-Ef3" userLabel="ScribdLoginViewController" customClass="ScribdLoginViewController" customModule="FreeYourPages" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e9C-iu-yLy"/>
                         <viewControllerLayoutGuide type="bottom" id="kcy-1l-r60"/>
@@ -143,40 +134,56 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kBb-PN-uog" userLabel="ContentView">
-                                        <rect key="frame" x="1" y="60" width="320" height="160"/>
+                                        <rect key="frame" x="1" y="30" width="320" height="210"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cuk-p2-yqn">
-                                                <rect key="frame" x="20" y="0.0" width="280" height="30"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EJi-2o-lEN">
-                                                <rect key="frame" x="20" y="40" width="280" height="30"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNf-Af-2Ae" customClass="MyButton" customModule="Scribd_Exporer" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scribd" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hB9-Pj-D0F">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="xOm-JV-1Co"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="EJi-2o-lEN">
                                                 <rect key="frame" x="20" y="90" width="280" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="vaR-0C-Ef3" id="MQx-dc-XcN"/>
+                                                </connections>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNf-Af-2Ae" customClass="RoundedButton" customModule="FreeYourPages" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="140" width="280" height="30"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="Login to Scribd">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <state key="disabled" title="Logging in"/>
                                                 <connections>
                                                     <action selector="saveLogin" destination="vaR-0C-Ef3" eventType="touchUpInside" id="LDk-pq-vEB"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEF-uW-uGU" customClass="MyButton" customModule="Scribd_Exporer" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="126" width="280" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEF-uW-uGU" customClass="RoundedButton" customModule="FreeYourPages" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="176" width="280" height="30"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 <state key="normal" title="Cancel">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="cancelLogin" destination="vaR-0C-Ef3" eventType="touchDragInside" id="9b4-wS-tUD"/>
+                                                    <action selector="cancelLogin" destination="vaR-0C-Ef3" eventType="touchUpInside" id="d9U-AZ-cqd"/>
                                                 </connections>
                                             </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="cuk-p2-yqn">
+                                                <rect key="frame" x="20" y="50" width="280" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="vaR-0C-Ef3" id="xsm-MY-zld"/>
+                                                </connections>
+                                            </textField>
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="cuk-p2-yqn" secondAttribute="trailing" constant="20" id="0j0-Fg-jFM"/>
@@ -187,11 +194,14 @@
                                             <constraint firstItem="EJi-2o-lEN" firstAttribute="top" secondItem="cuk-p2-yqn" secondAttribute="bottom" constant="10" id="LBM-X5-99E"/>
                                             <constraint firstItem="EJi-2o-lEN" firstAttribute="trailing" secondItem="cuk-p2-yqn" secondAttribute="trailing" id="Nfq-vB-aNU"/>
                                             <constraint firstItem="QNf-Af-2Ae" firstAttribute="trailing" secondItem="EJi-2o-lEN" secondAttribute="trailing" id="XNi-H9-bmg"/>
-                                            <constraint firstItem="cuk-p2-yqn" firstAttribute="top" secondItem="kBb-PN-uog" secondAttribute="top" id="bbj-d9-UBV"/>
+                                            <constraint firstItem="hB9-Pj-D0F" firstAttribute="leading" secondItem="kBb-PN-uog" secondAttribute="leading" id="aaG-XL-0lq"/>
                                             <constraint firstItem="QNf-Af-2Ae" firstAttribute="leading" secondItem="EJi-2o-lEN" secondAttribute="leading" id="bfb-g8-lgk"/>
                                             <constraint firstItem="cuk-p2-yqn" firstAttribute="centerX" secondItem="kBb-PN-uog" secondAttribute="centerX" id="e5t-XU-Feu"/>
                                             <constraint firstItem="EJi-2o-lEN" firstAttribute="leading" secondItem="cuk-p2-yqn" secondAttribute="leading" id="fYQ-4O-qR0"/>
+                                            <constraint firstItem="cuk-p2-yqn" firstAttribute="top" secondItem="hB9-Pj-D0F" secondAttribute="bottom" constant="10" id="i2f-K0-IoZ"/>
                                             <constraint firstItem="oEF-uW-uGU" firstAttribute="top" secondItem="QNf-Af-2Ae" secondAttribute="bottom" constant="6" id="pVy-Yl-1eu"/>
+                                            <constraint firstAttribute="trailing" secondItem="hB9-Pj-D0F" secondAttribute="trailing" id="qV4-mM-iBV"/>
+                                            <constraint firstItem="hB9-Pj-D0F" firstAttribute="top" secondItem="kBb-PN-uog" secondAttribute="top" id="scm-MH-SQ3"/>
                                             <constraint firstAttribute="bottom" secondItem="oEF-uW-uGU" secondAttribute="bottom" constant="4" id="uby-Qh-EkV"/>
                                             <constraint firstItem="QNf-Af-2Ae" firstAttribute="top" secondItem="EJi-2o-lEN" secondAttribute="bottom" constant="20" id="yd6-Ig-F5F"/>
                                         </constraints>
@@ -201,7 +211,7 @@
                                     <constraint firstItem="kBb-PN-uog" firstAttribute="centerX" secondItem="dgR-fW-IK2" secondAttribute="centerX" constant="1" id="3o5-Xc-qlO"/>
                                     <constraint firstAttribute="trailing" secondItem="kBb-PN-uog" secondAttribute="trailing" constant="-1" id="A5A-Wu-nAX"/>
                                     <constraint firstAttribute="bottom" secondItem="kBb-PN-uog" secondAttribute="bottom" constant="236" id="LmE-h0-q8l"/>
-                                    <constraint firstItem="kBb-PN-uog" firstAttribute="top" secondItem="dgR-fW-IK2" secondAttribute="top" constant="60" id="U3w-Gz-AU9"/>
+                                    <constraint firstItem="kBb-PN-uog" firstAttribute="top" secondItem="dgR-fW-IK2" secondAttribute="top" constant="30" id="U3w-Gz-AU9"/>
                                 </constraints>
                             </scrollView>
                         </subviews>

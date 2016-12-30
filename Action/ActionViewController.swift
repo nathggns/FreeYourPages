@@ -21,12 +21,8 @@ enum ActionError: Error {
 }
 
 class ActionViewController: UIViewController {
-
-    @IBOutlet weak var webView: UIWebView?
- 
     let baseUrl = "https://www.scribd.com"
     let loginEndpoint = "/login"
-    @IBOutlet weak var web: UIWebView!
     let csrfExpr = "<meta name=\"csrf-token\" content=\"([^\"]+)\" \\/>"
     let bookExpr = "\\/book\\/([\\d]+)"
     let bookEndpoint = "/book/"

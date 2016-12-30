@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		43199A541E12D4140073B182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A531E12D4140073B182 /* AppDelegate.swift */; };
-		43199A561E12D4140073B182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A551E12D4140073B182 /* ViewController.swift */; };
+		43199A561E12D4140073B182 /* ScribdLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A551E12D4140073B182 /* ScribdLoginViewController.swift */; };
 		43199A591E12D4140073B182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43199A571E12D4140073B182 /* Main.storyboard */; };
 		43199A5B1E12D4140073B182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43199A5A1E12D4140073B182 /* Assets.xcassets */; };
 		43199A5E1E12D4140073B182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43199A5C1E12D4140073B182 /* LaunchScreen.storyboard */; };
@@ -17,11 +17,12 @@
 		43199A9B1E12D6160073B182 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43199A9A1E12D6160073B182 /* ActionViewController.swift */; };
 		43199A9E1E12D6160073B182 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43199A9C1E12D6160073B182 /* MainInterface.storyboard */; };
 		43199AA21E12D6160073B182 /* Action.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 43199A981E12D6160073B182 /* Action.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4361BD401E1478A10066A0F4 /* ScribdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD3F1E1478A10066A0F4 /* ScribdController.swift */; };
+		4361BD401E1478A10066A0F4 /* ScribdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD3F1E1478A10066A0F4 /* ScribdViewController.swift */; };
 		4361BD431E1486240066A0F4 /* PopupDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD421E1486240066A0F4 /* PopupDelegate.swift */; };
 		4361BD461E1524780066A0F4 /* Scribd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD451E1524780066A0F4 /* Scribd.swift */; };
 		4361BD471E15258A0066A0F4 /* Scribd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361BD451E1524780066A0F4 /* Scribd.swift */; };
-		43B1A7B01E1432F8007BAD65 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1A7AF1E1432F8007BAD65 /* MyButton.swift */; };
+		438F781C1E16D63F00166C46 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 438F781B1E16D63F00166C46 /* README.md */; };
+		43B1A7B01E1432F8007BAD65 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1A7AF1E1432F8007BAD65 /* RoundedButton.swift */; };
 		43C8B8E6F9E5B57B7BF13E42 /* Pods_Action.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E792CBDC14017096A4507F09 /* Pods_Action.framework */; };
 		5892EA38613E61499E4C5483 /* Pods_FreeYourPages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA8323AF06E95AF7399CE36 /* Pods_FreeYourPages.framework */; };
 		6C5FB016E23AD34C185809B5 /* Pods_Scribd_ExporerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E502056A09378279E36AD799 /* Pods_Scribd_ExporerUITests.framework */; };
@@ -77,7 +78,7 @@
 		41C64586040738C789BE5EA6 /* Pods-Scribd Exporer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd Exporer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd Exporer/Pods-Scribd Exporer.release.xcconfig"; sourceTree = "<group>"; };
 		43199A501E12D4140073B182 /* FreeYourPages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeYourPages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43199A531E12D4140073B182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43199A551E12D4140073B182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43199A551E12D4140073B182 /* ScribdLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribdLoginViewController.swift; sourceTree = "<group>"; };
 		43199A581E12D4140073B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43199A5A1E12D4140073B182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43199A5D1E12D4140073B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,10 +93,11 @@
 		43199A9A1E12D6160073B182 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		43199A9D1E12D6160073B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		43199A9F1E12D6160073B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4361BD3F1E1478A10066A0F4 /* ScribdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScribdController.swift; sourceTree = "<group>"; };
+		4361BD3F1E1478A10066A0F4 /* ScribdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScribdViewController.swift; sourceTree = "<group>"; };
 		4361BD421E1486240066A0F4 /* PopupDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDelegate.swift; sourceTree = "<group>"; };
 		4361BD451E1524780066A0F4 /* Scribd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scribd.swift; sourceTree = "<group>"; };
-		43B1A7AF1E1432F8007BAD65 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		438F781B1E16D63F00166C46 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		43B1A7AF1E1432F8007BAD65 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		43DD0B991E15BDD2008DD8C8 /* Action.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Action.entitlements; sourceTree = "<group>"; };
 		43DD0B9A1E15BDDF008DD8C8 /* FreeYourPages.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FreeYourPages.entitlements; sourceTree = "<group>"; };
 		4F5427CB5FD38F7C5563402F /* Pods-Scribd ExporerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribd ExporerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribd ExporerTests/Pods-Scribd ExporerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		43199A471E12D4130073B182 = {
 			isa = PBXGroup;
 			children = (
+				438F781B1E16D63F00166C46 /* README.md */,
 				43199A991E12D6160073B182 /* Action */,
 				325D5AAD3200FEB6DFC4840D /* Frameworks */,
 				43199A521E12D4140073B182 /* FreeYourPages */,
@@ -200,11 +203,11 @@
 				43199A5F1E12D4140073B182 /* Info.plist */,
 				43199A5C1E12D4140073B182 /* LaunchScreen.storyboard */,
 				43199A571E12D4140073B182 /* Main.storyboard */,
-				43B1A7AF1E1432F8007BAD65 /* MyButton.swift */,
+				43B1A7AF1E1432F8007BAD65 /* RoundedButton.swift */,
 				4361BD421E1486240066A0F4 /* PopupDelegate.swift */,
 				4361BD451E1524780066A0F4 /* Scribd.swift */,
-				4361BD3F1E1478A10066A0F4 /* ScribdController.swift */,
-				43199A551E12D4140073B182 /* ViewController.swift */,
+				4361BD3F1E1478A10066A0F4 /* ScribdViewController.swift */,
+				43199A551E12D4140073B182 /* ScribdLoginViewController.swift */,
 			);
 			path = FreeYourPages;
 			sourceTree = "<group>";
@@ -616,12 +619,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4361BD401E1478A10066A0F4 /* ScribdController.swift in Sources */,
-				43199A561E12D4140073B182 /* ViewController.swift in Sources */,
+				4361BD401E1478A10066A0F4 /* ScribdViewController.swift in Sources */,
+				43199A561E12D4140073B182 /* ScribdLoginViewController.swift in Sources */,
 				4361BD461E1524780066A0F4 /* Scribd.swift in Sources */,
+				438F781C1E16D63F00166C46 /* README.md in Sources */,
 				43199A541E12D4140073B182 /* AppDelegate.swift in Sources */,
 				4361BD431E1486240066A0F4 /* PopupDelegate.swift in Sources */,
-				43B1A7B01E1432F8007BAD65 /* MyButton.swift in Sources */,
+				43B1A7B01E1432F8007BAD65 /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

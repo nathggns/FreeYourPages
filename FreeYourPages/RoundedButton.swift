@@ -1,5 +1,5 @@
 import UIKit
-public class MyButton: UIButton {
+public class RoundedButton: UIButton {
     
     public var roundRectCornerRadius: CGFloat = 4 {
         didSet {
